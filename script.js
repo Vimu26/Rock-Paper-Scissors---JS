@@ -50,9 +50,9 @@ function onClick(playerChoice) {
 }
 
 function playGame() {
-  let onclickrps = document.querySelectorAll(".rpsButton");
+  let onclickRps = document.querySelectorAll(".rpsButton");
 
-  onclickrps.forEach((rpsButton) => {
+  onclickRps.forEach((rpsButton) => {
     rpsButton.onclick = () => onClick(rpsButton);
   });
 

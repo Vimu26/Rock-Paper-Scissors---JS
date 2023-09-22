@@ -1,7 +1,7 @@
 .head {
   color: white;
   font-family: "Gill Sans";
-  font-size: 25px;
+  font-size: 50px;
   text-align: center;
 }
 .full {
@@ -25,6 +25,7 @@
   font-size: 48px;
   border-radius: 30px;
   cursor: pointer;
+  margin-top: 50px;
 }
 .results {
   font-size: 2rem;
